@@ -15,7 +15,7 @@ export function menu() {
         console.log("*****************************************************");
         console.log("                                                     ");
         console.log("            1 - Cadastrar Produto                    ");
-        console.log("            2 - Listar todos os produtos             ");
+        console.log("            2 - Listar todos os Produtos             ");
         console.log("            3 - Listar Produto por ID                ");
         console.log("            4 - Atualizar Produto                    ");
         console.log("            5 - Deletar Produto                      ");

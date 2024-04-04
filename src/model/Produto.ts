@@ -1,14 +1,17 @@
 export abstract class Produto{
 
-    private _id: number;
+
     private _nome: string;
-    private _tipo: number;
+    public _id: number;
+    public _tipo: number;
     private _preco: number;
+    
+   
 
 
-	constructor(_id: number, _nome: string, _tipo: number, _preco: number) {
-		this._id = _id;
+	constructor( _nome: string, _id: number, _tipo: number, _preco: number) {
 		this._nome = _nome;
+        this._id = _id;
 		this._tipo = _tipo;
 		this._preco = _preco;
 	}

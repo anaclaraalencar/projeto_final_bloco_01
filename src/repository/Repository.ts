@@ -1,7 +1,7 @@
 import { Produto } from "../model/Produto";
 
 
-export interface ProdutoRepository{
+export interface Repository{
 
     // Métodos do CRUD ( Create, Read, Update, Delete)
     procurarPorId(id: number): void;
